@@ -1,0 +1,27 @@
+.paginationOuterDiv {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationList {
+  margin-bottom: 0px;
+}
+
+.paginationListItem {
+  display: inline;
+  padding: 5px 10px;
+  margin-inline: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.paginationListItem:hover {
+  background-color: #e5e5ea80;
+}
+
+.activeItem {
+  background-color: #e5e5ea80;
+}

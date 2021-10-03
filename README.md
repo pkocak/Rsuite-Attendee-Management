@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# RSUITE ATTENDEE MANAGEMENT FIREBASE APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Suite Event Attendee Management Panel with Firebase Realtime Database, Language and Multi-theme Support including Redux and Redux Saga.
+
+## Description
+
+### `Authentication`
+
+Authentication is done via Firebase Authentication.
+
+### `Attendee Management Page`
+
+In this page, there is a table shows registered attendees who can be checked-in. All the data is stored in Firebase Realtime Database.
+
+### `Registration Page`
+
+In this page, a new attendee can be registered to the event. After a user is registered, this page will lead to Attendee Management Page with selecting the new registered attendee.
+
+## Authentication
+
+email: admin@example.com
+password: `1q2w3e4R*`
 
 ## Available Scripts
 

@@ -1,0 +1,90 @@
+{
+  "attendees": {
+    "en": {
+      "full_name": "Full Name",
+      "email": "Email",
+      "hes": "HES",
+      "check_in_status": "Check-in Status",
+      "checked_in": "Checked-in",
+      "check_in": "Check-in",
+      "checked_in_successfully": "Successfully checked-in",
+      "check_in_failed": "Failed to check-in"
+    },
+    "tr": {
+      "full_name": "Tam İsim",
+      "email": "Email",
+      "hes": "HES",
+      "check_in_status": "Giriş Durumu",
+      "checked_in": "Giriş Yaptı",
+      "check_in": "Giriş Yap",
+      "checked_in_successfully": "Başarılı bir şekilde giriş yapıldı",
+      "check_in_failed": "Giriş yapılamadı"
+    }
+  },
+  "auth": {
+    "en": {
+      "login": "Login",
+      "email": "Email",
+      "password": "Password",
+      "signin": "Sign In"
+    },
+    "tr": {
+      "login": "Oturum Aç",
+      "email": "Email",
+      "password": "Şifre",
+      "signin": "Giriş"
+    }
+  },
+  "components": {
+    "en": { "yes": "Yes", "no": "No", "search": "Search", "logout": "Logout" },
+    "tr": { "yes": "Evet", "no": "Hayır", "search": "Ara", "logout": "Çıkış" }
+  },
+  "error": {
+    "en": {
+      "required": "This field is required*",
+      "email": "*Please enter a valid email*",
+      "password": "*Password must match the following: At least 1 uppercase, lowercase and number*",
+      "password_min": "*Password must be at least 8 characters*",
+      "login": "Email or password is incorrect*",
+      "hes": "HES code must contain uppercases and numbers only*",
+      "hes_range": "HES code must consist of 10 characters*"
+    },
+    "tr": {
+      "required": "Bu alan zorunludur*",
+      "email": "*Lütfen geçerli bir email giriniz*",
+      "password": "*Şifre şunları içermeli: En az 1 büyük, küçük harf ve rakam*",
+      "password_min": "*Şifre en az 6 karakter içermelidir*",
+      "login": "Email veya şifre yanlış*",
+      "hes": "HES kodu sadece büyük harf ve rakam içermelidir*",
+      "hes_range": "HES kodu 10 karakterden oluşmalıdır*"
+    }
+  },
+  "registration": {
+    "en": {
+      "full_name": "Full Name",
+      "email": "Email",
+      "hes": "HES Code",
+      "save": "Save",
+      "successfully_registered": "Successfully Registered",
+      "failed_to_register": "Failed to Register New Attendee"
+    },
+    "tr": {
+      "full_name": "Tam Ad",
+      "email": "Email",
+      "hes": "HES Kodu",
+      "save": "Kaydet",
+      "successfully_registered": "Başarılı Bir Şekilde Kaydedildi",
+      "failed_to_register": "Yeni Katılımcı Kaydedilemedi"
+    }
+  },
+  "sidebar": {
+    "en": {
+      "attendee_management": "Attendee Management",
+      "registration": "Registration"
+    },
+    "tr": {
+      "attendee_management": "Katılımcı Yönetimi",
+      "registration": "Kayıt"
+    }
+  }
+}

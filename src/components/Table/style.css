@@ -1,0 +1,51 @@
+.tableComponent {
+  width: 100%;
+  height: 100%;
+}
+
+.tableDiv {
+  width: 100%;
+  height: calc(100% - 121px);
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #e5e5ea;
+}
+
+thead {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+th,
+td {
+  text-align: start;
+  padding: 8px !important;
+}
+
+th {
+  border-inline-end: 1px solid #e5e5ea;
+  cursor: pointer;
+}
+
+tbody {
+  width: 100%;
+  height: 100px;
+  overflow: hidden !important;
+}
+
+tbody > tr {
+  height: 53px;
+  transition: 0.3s;
+}
+
+tbody > tr:hover {
+  background-color: #e5e5ea80;
+}
+
+td {
+  border-block-start: 1px solid #e5e5ea;
+}
